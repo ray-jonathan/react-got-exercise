@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -21,6 +22,59 @@
 
 .App-link {
   color: #61dafb;
+}
+.box{
+  margin-top: 5vh;
+
+}
+.character-box{
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.character-list{
+  width: 20%;
+  flex-direction:row; 
+  overflow-y: auto;
+}
+
+.character-list button{
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  padding:0;
+  height: 3em;
+  border:0;
+}
+.character-list button:hover{
+  background-color: #4e535c;
+  font-weight: bolder;
+}
+.character-detail{
+  padding-top: 5vh;
+  color: white;
+  width: 80%;
+  margin: 0;
+  flex-direction:row; 
+}
+.character-detail h2, h3{
+  margin-top:0;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.search{
+  text-align: center;
+  width:100%;
+}
+.top-bar{
+  color: white;
+  background-color: #282c34;
+}
+.top-bar h1{
+  margin:0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @keyframes App-logo-spin {
